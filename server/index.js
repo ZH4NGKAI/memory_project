@@ -15,7 +15,6 @@ app.use(cors())
 
 app.use('/posts', postRoutes)
 
-// const CONNECTION_URL = 'mongodb+srv://kaizhang:kaizhang@cluster0.bhye4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 const PORT = process.env.PORT || 5000
 
 
